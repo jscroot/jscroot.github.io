@@ -4,11 +4,11 @@ Make Javascript Great Again. Don't worry if you're beginner. It's just Javascrip
 
 ## List of component
 
-* [element](https://jscroot.github.io/element)
-* [api](https://jscroot.github.io/api)
-* [useragent](https://jscroot.github.io/useragent)
-* [websocket](https://jscroot.github.io/websocket)
-* [cookie](https://jscroot.github.io/cookie)
+* [element](https://jscroot.github.io/element/croot.js)
+* [api](https://jscroot.github.io/api/croot.js)
+* [useragent](https://jscroot.github.io/useragent/croot.js)
+* [websocket](https://jscroot.github.io/websocket/croot.js)
+* [cookie](https://jscroot.github.io/cookie/croot.js)
 
 ## How to use
 
@@ -17,7 +17,13 @@ Make Javascript Great Again. Don't worry if you're beginner. It's just Javascrip
 html file :
 
 ```html
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
 <script type="module" src="croot.js"></script>
+</body>
+</html>
 ```
 
 js file :
