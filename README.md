@@ -30,7 +30,10 @@ croot.js :
 
 ```js
 import { setInner } from "https://jscroot.github.io/element/croot.js";
-
-
 setInner("demo","Dari croot.js");
+```
+or
+```js
+import * as croot from "https://jscroot.github.io/element/croot.js";
+croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
 ```
