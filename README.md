@@ -4,11 +4,11 @@ Make Javascript Great Again. Don't worry if you're beginner. It's just Javascrip
 
 ## List of component
 
-* [element](/element)
-* [api](/api)
-* [useragent](/useragent)
-* [websocket](/websocket)
-* [cookie](/cookie)
+* [element](https://jscroot.github.io/element)
+* [api](https://jscroot.github.io/api)
+* [useragent](https://jscroot.github.io/useragent)
+* [websocket](https://jscroot.github.io/websocket)
+* [cookie](https://jscroot.github.io/cookie)
 
 ## How to use
 
