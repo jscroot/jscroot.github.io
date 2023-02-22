@@ -1,6 +1,6 @@
 # Just Croot It | VanillaJS Micro Framework
 
-Make Javascript Great Again. Don't worry if you're beginner. It's just Javascript.
+In the name of Javascript. Make Javascript Great Again. Don't worry if you're beginner. It's just Javascript.
 
 ## List of component
 
