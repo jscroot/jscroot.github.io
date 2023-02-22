@@ -2,6 +2,14 @@
 
 Make Javascript Great Again. Don't worry if you're beginner.
 
+## List of component
+
+* [element](/element)
+* [api](/api)
+* [useragent](/useragent)
+* [websocket](/websocket)
+* [cookie](/cookie)
+
 ## How to use
 
 ```html
