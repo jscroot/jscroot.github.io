@@ -1,6 +1,6 @@
 # jscroot.github.io
 
-Make Javascript Great Again. Don't worry if you're beginner.
+Make Javascript Great Again. Don't worry if you're beginner. It's just Javascript.
 
 ## List of component
 
