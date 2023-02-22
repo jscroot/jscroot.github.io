@@ -1,4 +1,4 @@
-# jscroot.github.io
+# Just Croot
 
 Make Javascript Great Again. Don't worry if you're beginner. It's just Javascript.
 
@@ -12,10 +12,19 @@ Make Javascript Great Again. Don't worry if you're beginner. It's just Javascrip
 
 ## How to use
 
+[example](https://jscroot.github.io/croot.html)
+
+html file :
+
 ```html
-<script type="text/javascript" src="https://jscroot.github.io/element/croot.js"></script>
-<script type="text/javascript" src="https://jscroot.github.io/api/croot.js"></script>
-<script type="text/javascript" src="https://jscroot.github.io/useragent/croot.js"></script>
-<script type="text/javascript" src="https://jscroot.github.io/websocket/croot.js"></script>
-<script type="text/javascript" src="https://jscroot.github.io/cookie/croot.js"></script>
+<script type="module" src="croot.js"></script>
+```
+
+js file :
+
+```js
+import { setInner } from "https://jscroot.github.io/element/croot.js";
+
+
+setInner("demo","Dari croot.js");
 ```
