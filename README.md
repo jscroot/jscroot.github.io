@@ -14,7 +14,7 @@ Make Javascript Great Again. Don't worry if you're beginner. It's just Javascrip
 
 [example](https://jscroot.github.io/croot.html)
 
-html file :
+croot.html :
 
 ```html
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ html file :
 </html>
 ```
 
-js file :
+croot.js :
 
 ```js
 import { setInner } from "https://jscroot.github.io/element/croot.js";
