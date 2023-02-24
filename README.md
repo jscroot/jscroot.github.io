@@ -53,7 +53,7 @@ croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
 import { setInner } from "https://jscroot.github.io/element/croot.js";
 import { postWithToken } from "https://jscroot.github.io/api/croot.js";
 
-function getResponse(result){
+function headingContent(result){
     setInner(result.message); // json object 
 }
 
@@ -64,7 +64,7 @@ let datainjson = {
     "password": password
     }
 
-postWithToken("https://foo.bar","Token","dsf9ygf87h98u479y98dj0fs89nfd7",datainjson,getResponse);
+postWithToken("https://foo.bar","Token","dsf9ygf87h98u479y98dj0fs89nfd7",datainjson,headingContent);
 
 ```
 
@@ -78,7 +78,7 @@ import { stringdiv, icons } from "./html.js";
 
        
 
-function response(jsonParse){
+function userTable(jsonParse){
     var stringtable = '';
     jsonParse.data.forEach((element, index) => {
       let svgicon = icons.replace("#WARNA#", getRandomColor());
@@ -93,5 +93,5 @@ function response(jsonParse){
 
 }
 
-get("https://reqres.in/api/users",response);
+get("https://reqres.in/api/users",userTable);
 ```
