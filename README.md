@@ -1,4 +1,4 @@
-# Just Croot It | A Pure VanillaJS Lightweight Micro Framework
+# Just Croot It | A Pure Blood VanillaJS Lightweight Micro Framework
 
 In the name of Javascript. Make Javascript Great Again. Don't worry if you're beginner. It's just a Pure Blood Javascript.
 
