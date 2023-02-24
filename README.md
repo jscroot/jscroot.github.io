@@ -47,7 +47,7 @@ croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
 
 ## Cheat Sheet
 
-API response
+### Post with custom token to API
 
 ```js
 import { setInner } from "https://jscroot.github.io/element/croot.js";
@@ -68,7 +68,7 @@ postWithToken("https://foo.bar","Token","dsf9ygf87h98u479y98dj0fs89nfd7",datainj
 
 ```
 
-JSON response to table
+### Fill table from API JSON Data
 
 ```js
 import { get } from "https://jscroot.github.io/api/croot.js";
