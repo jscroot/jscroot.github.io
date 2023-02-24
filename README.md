@@ -10,6 +10,7 @@ In the name of Javascript. Make Javascript Great Again. Don't worry if you're be
 * [websocket](https://jscroot.github.io/websocket/croot.js)
 * [cookie](https://jscroot.github.io/cookie/croot.js)
 * [image](https://jscroot.github.io/image/croot.js)
+* [url](https://jscroot.github.io/url/croot.js)
 
 ## How to use
 
