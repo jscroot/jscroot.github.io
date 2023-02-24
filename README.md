@@ -38,3 +38,54 @@ or
 import * as croot from "https://jscroot.github.io/element/croot.js";
 croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
 ```
+
+## Cheat Sheet
+
+API response
+
+```js
+import { setInner } from "https://jscroot.github.io/element/croot.js";
+import { postWithToken } from "https://jscroot.github.io/api/croot.js";
+
+function getResponse(result){
+    setInner(result.message); // json object 
+}
+
+let datainjson = {
+    "namadepan": namadepan,
+    "namabelakang": namabelakang,
+    "email": email,
+    "password": password
+    }
+
+postWithToken("https://foo.bar","Token","dsf9ygf87h98u479y98dj0fs89nfd7",datainjson,getResponse);
+
+```
+
+JSON response to table
+
+```js
+import { get } from "https://jscroot.github.io/api/croot.js";
+import { setInner, addInner } from "https://jscroot.github.io/element/croot.js";
+import { getRandomColor } from "https://jscroot.github.io/image/croot.js"
+import { stringdiv, icons } from "./html.js";
+
+       
+
+function response(jsonParse){
+    var stringtable = '';
+    jsonParse.data.forEach((element, index) => {
+      let svgicon = icons.replace("#WARNA#", getRandomColor());
+        if (index % 2 === 0){
+            stringtable += stringdiv.replace("#NAMA#", element['first_name']).replace("#EMAIL#", element['email']).replace("#BG#", "bg-gray-50").replace("#SVG#", svgicon);
+        } else{
+            stringtable += stringdiv.replace("#NAMA#", element['first_name']).replace("#EMAIL#", element['email']).replace("#BG#", "").replace("#SVG#", svgicon);
+        }
+    });
+
+    addInner("demo",stringtable);
+
+}
+
+get("https://reqres.in/api/users",response);
+```
