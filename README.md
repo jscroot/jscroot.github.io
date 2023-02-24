@@ -2,6 +2,9 @@
 
 In the name of Javascript. Make Javascript Great Again. Don't worry if you're beginner. It's just Javascript.
 
+![Pure Blood](./img/pureblood.gif "Pure Blood")
+
+
 ## List of component
 
 * [element](https://jscroot.github.io/element/croot.js)
