@@ -1,6 +1,8 @@
-# Just Croot It | A Pure VanillaJS Micro Framework
+# Just Croot It | A Pure VanillaJS Lightweight Micro Framework
 
-In the name of Javascript. Make Javascript Great Again. Don't worry if you're beginner. It's just Javascript.
+In the name of Javascript. Make Javascript Great Again. Don't worry if you're beginner. It's just a Pure Blood Javascript.
+
+[Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)
 
 ![Pure Blood](./img/pureblood.gif "Pure Blood")
 
