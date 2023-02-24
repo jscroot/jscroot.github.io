@@ -95,3 +95,9 @@ function userTable(jsonParse){
 
 get("https://reqres.in/api/users",userTable);
 ```
+
+## How to Develop
+
+* [What is export default in JavaScript ?](https://www.geeksforgeeks.org/what-is-export-default-in-javascript/)
+* [What is "export default" in JavaScript?](https://stackoverflow.com/questions/21117160/what-is-export-default-in-javascript)
+* [export](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export)
