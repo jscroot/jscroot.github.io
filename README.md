@@ -139,6 +139,13 @@ export let presensiContent=`
 ## using form
 
 ``` html
+<script type="module">
+    import {PostSignUp} from "/sidang/js/pdsidang.js";
+    window.PostSignUp = PostSignUp;
+</script>
+
+...
+
 <form id="form" onsubmit="event.preventDefault();">
 <button type="submit" id="button" onclick="PostSignUp()">submit</button>
  </form>
