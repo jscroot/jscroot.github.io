@@ -136,6 +136,15 @@ export let presensiContent=`
 `
 ```
 
+## using form
+
+``` html
+<form id="form" onsubmit="event.preventDefault();">
+<button type="submit" id="button" onclick="PostSignUp()">submit</button>
+ </form>
+```
+
+
 ## How to Develop
 
 * [What is export default in JavaScript ?](https://www.geeksforgeeks.org/what-is-export-default-in-javascript/)
