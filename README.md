@@ -1,4 +1,4 @@
-# Just Croot It | A Pure Blood VanillaJS Lightweight ES6+ Kit
+# Just Change it from and to the root | A Pure Blood VanillaJS Lightweight ES6+ Kit
 
 In the name of Javascript. Make Javascript Great Again. Don't worry if you're a beginner. It's just a Pure Blood Javascript with modern ES6+ Syntac.
 
