@@ -1,6 +1,6 @@
-# Just Croot It | A Pure Blood VanillaJS Lightweight Micro Framework
+# Just Croot It | A Pure Blood VanillaJS Lightweight ES6+ Kit
 
-In the name of Javascript. Make Javascript Great Again. Don't worry if you're beginner. It's just a Pure Blood Javascript.
+In the name of Javascript. Make Javascript Great Again. Don't worry if you're a beginner. It's just a Pure Blood Javascript with modern ES6+ Syntac.
 
 [Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)
 
@@ -16,6 +16,7 @@ In the name of Javascript. Make Javascript Great Again. Don't worry if you're be
 * [cookie](https://jscroot.github.io/cookie/croot.js)
 * [image](https://jscroot.github.io/image/croot.js)
 * [url](https://jscroot.github.io/url/croot.js)
+* [mongo](https://jscroot.github.io/mongo/croot.js)
 
 ## How to use
 
@@ -70,7 +71,7 @@ postWithToken("https://foo.bar","Token","dsf9ygf87h98u479y98dj0fs89nfd7",datainj
 
 ### Fill table from API JSON Data
 
-Use standard boiler plate within folder: config,controller,template with the structure.
+Use standard boilerplate within the folder: config, controller, template with the structure.
 
 ![image](https://user-images.githubusercontent.com/11188109/224894184-74bc9192-d635-47e1-bd02-f7dbe16a0d39.png)
 
