@@ -18,11 +18,8 @@ In the name of Javascript. Make Javascript Great Again. Don't worry if you're a 
 * [url](https://jscroot.github.io/url/croot.js)
 * [mongo](https://jscroot.github.io/mongo/croot.js)
 
-## How to use
+## How to Code
 
-Just Look Into [examples](./examples/)
-
-## How to use
 croot.html :
 
 ```html
@@ -46,6 +43,8 @@ or
 import * as croot from "https://jscroot.github.io/element/croot.js";
 croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
 ```
+
+Just Look Into [examples](./examples/)
 
 ## Cheat Sheet
 
