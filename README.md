@@ -20,8 +20,9 @@ In the name of Javascript. Make Javascript Great Again. Don't worry if you're a 
 
 ## How to use
 
-[example](https://jscroot.github.io/croot.html)
+Just Look Into [examples](./examples/)
 
+## How to use
 croot.html :
 
 ```html
