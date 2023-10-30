@@ -18,7 +18,7 @@ In the name of Javascript. Make Javascript Great Again. Don't worry if you're a 
 * [url](https://jscroot.github.io/url/croot.js)
 * [mongo](https://jscroot.github.io/mongo/croot.js)
 
-## How to Code
+## How to Use
 
 croot.html :
 
