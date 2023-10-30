@@ -27,7 +27,7 @@ croot.html :
 <html>
 <body>
 <p id="demo"></p>
-<script type="module" src="croot.js"></script>
+<script type="module" src="./croot.js"></script>
 </body>
 </html>
 ```
