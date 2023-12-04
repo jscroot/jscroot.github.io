@@ -21,7 +21,7 @@ Just Look Into [examples](./examples/) section.
 
 ## List of Template
 
-* [Swagger](https://jscroot.github.io/swagger/)
+* [Swagger](https://jscroot.github.io/swagger/) | [Fork Github](https://github.com/jscroot/swagger)
 
 ## How to Use
 
