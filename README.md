@@ -6,6 +6,7 @@ In the name of Javascript. Make Javascript Great Again. Don't worry if you're a 
 
 ![Pure Blood](./img/pureblood.gif "Pure Blood")
 
+Just Look Into [examples](./examples/) section.
 
 ## List of component
 
