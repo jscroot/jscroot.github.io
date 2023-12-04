@@ -19,6 +19,10 @@ Just Look Into [examples](./examples/) section.
 * [url](https://jscroot.github.io/url/croot.js)
 * [mongo](https://jscroot.github.io/mongo/croot.js)
 
+## List of Template
+
+* [Swagger](https://jscroot.github.io/swagger/)
+
 ## How to Use
 
 croot.html :
