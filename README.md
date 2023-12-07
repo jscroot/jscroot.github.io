@@ -10,13 +10,13 @@ Just Look Into [examples](./examples/) section.
 
 ## List of component
 
-* [element](https://jscroot.github.io/element/croot.js)
-* [api](https://jscroot.github.io/api/croot.js)
+* [element](https://jscroot.github.io/element/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/element/)
+* [api](https://jscroot.github.io/api/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/api/)
 * [useragent](https://jscroot.github.io/useragent/croot.js)
 * [websocket](https://jscroot.github.io/websocket/croot.js)
-* [cookie](https://jscroot.github.io/cookie/croot.js)
+* [cookie](https://jscroot.github.io/cookie/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/cookie/)
 * [image](https://jscroot.github.io/image/croot.js)
-* [url](https://jscroot.github.io/url/croot.js)
+* [url](https://jscroot.github.io/url/croot.js) | [cdn url](https://cdn.jsdelivr.net/gh/jscroot/url/)
 * [mongo](https://jscroot.github.io/mongo/croot.js)
 
 ## List of Template
