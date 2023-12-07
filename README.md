@@ -5,6 +5,10 @@ In the name of Javascript. Make Javascript Great Again. Don't worry if you're a 
 [Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)
 
 ![Pure Blood](./img/pureblood.gif "Pure Blood")
+Rule of Thumb:  
+```txt
+Every line in javascript run as sub process in browser, not waiting. Use async await or promise if you want to run without sub process.
+```
 
 Just Look Into [examples](./examples/) section.
 
