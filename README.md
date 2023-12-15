@@ -1,4 +1,4 @@
-# Just Change the Root | A Pure Blood VanillaJS ES6+ Kit
+# ꦗꦮ꦳ꦱ꧀ꦕꦥ꧀ꦠ꧀ | Just Change the Root | A Pure Blood VanillaJS ES6+ Kit
 
 In the name of Javascript. Make Javascript Great Again. Don't worry if you're a beginner. It's just a Pure Blood Javascript with modern ES6+ Syntac.  
 [Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)  
