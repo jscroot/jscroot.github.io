@@ -10,8 +10,9 @@ Use async await or promise if you want to run without sub process.
 ```
 Skeleton of js
 ```js
-import {functionNaem} from "https://cdn.jsdelvr.com/gh/jscroot/croot.js";
+import {functionName, runFunction} from "https://cdn.jsdelvr.com/gh/jscroot/croot.js";
 await functionName(arg);
+runFunction(arg);
 document.addEventListener('DOMContentLoaded', function() {
   // initial HTML document has been completely loaded and parsed, without waiting
   // for stylesheets, images, and subframes to finish loading
