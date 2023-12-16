@@ -8,7 +8,20 @@ Rule of Thumb:
 Every line in javascript run as sub process in browser, not waiting.
 Use async await or promise if you want to run without sub process.
 ```
-
+Skeleton of js
+```js
+import {functionNaem} from "https://cdn.jsdelvr.com/gh/jscroot/croot.js";
+await functionName(arg);
+document.addEventListener('DOMContentLoaded', function() {
+  // initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading
+  console.log('DOM fully loaded and parsed');
+});
+window.addEventListener('load', (event) => {
+    //This includes after all assets like images, scripts, and CSS files.
+    console.log('The page has fully loaded');
+    // Your code here
+});
+```
 Just Look Into [examples](./examples/) section.
 
 ## List of component
