@@ -5,28 +5,32 @@ Supported in many static web hosting:
 1. Github pages
 2. Gitlab pages
 3. AWS Amplify / Amazon S3
-4. Zeit
-5. Forge
-6. Bip.sh
-7. DigitalOcean App Platform
-8. Statically
-9. Clodui
-10. Cloud 66
-11. Cloudflare Pages
-12. Deploy Now
-13. Firebase
-14. Google Cloud Storage Bucket
-15. Kinsta Static Site Hosting
-16. Microsoft Azure
-17. Netlify
-18. Render
-19. Static.app
-20. Stormkit.io
-21. Hostman
-22. Surge.sh
-23. tiiny.host
-24. Back4App
-25. Vercel
+4. KeyCDN
+5. Azure Static Web Apps
+6. 21YunBox
+7. Blogspot
+8. Zeit
+9. Forge
+10. Bip.sh
+11. DigitalOcean App Platform
+12. Statically
+13. Clodui
+14. Cloud 66
+15. Cloudflare Pages
+16. Deploy Now
+17. Firebase
+18. Google Cloud Storage Bucket
+19. Kinsta Static Site Hosting
+20. Microsoft Azure
+21. Netlify
+22. Render
+23. Static.app
+24. Stormkit.io
+25. Hostman
+26. Surge.sh
+27. tiiny.host
+28. Back4App
+29. Vercel
 
 [Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)  
 Rule of Thumb:  
