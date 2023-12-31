@@ -1,5 +1,7 @@
 # Root Static Website | Javascript Changer to transform Static Web into Dynamic Website  | A Pure VanillaJS ES6+ Base
 
+![ꦗꦮ꦳ꦱ꧀ꦕꦥ꧀ꦠ꧀](https://github.com/jscroot/jscroot.github.io/assets/11188109/3c0c88d0-9900-49c7-86d4-0c42bbc8f175)  
+
 Root your static website, and change it into a dynamic one. Get the benefit of a low-emission carbon code. Supported by many static web hosting.
 
 [Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)  
