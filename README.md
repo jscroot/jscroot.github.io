@@ -1,4 +1,4 @@
-# ꦗꦮ꦳ꦱ꧀ꦕꦥ꧀ꦠ꧀ | Javascript Changer to transform Static Web into Dynamic Website  | A Pure VanillaJS ES6+ Base
+# Root Static Website | Javascript Changer to transform Static Web into Dynamic Website  | A Pure VanillaJS ES6+ Base
 
 Root your static website, and change it into a dynamic one. Get the benefit of a low-emission carbon code.  
 Supported in many static web hosting:
