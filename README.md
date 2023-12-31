@@ -1,6 +1,32 @@
-# ꦗꦮ꦳ꦱ꧀ꦕꦥ꧀ꦠ꧀ | Just Change the Root | A Pure Blood VanillaJS ES6+ Kit
+# ꦗꦮ꦳ꦱ꧀ꦕꦥ꧀ꦠ꧀ | Javascript Changer to transform Static Web into Dynamic Website  | A Pure VanillaJS ES6+ Base
 
-  
+Root your static website, and change it into a dynamic one. Get the benefit of a low-emission carbon code.  
+Supported in many static web hosting:
+1. Github pages
+2. Gitlab pages
+3. AWS Amplify / Amazon S3
+4. Zeit
+5. Forge
+6. Bip.sh
+7. DigitalOcean App Platform
+8. Statically
+9. Clodui
+10. Cloud 66
+11. Cloudflare Pages
+12. Deploy Now
+13. Firebase
+14. Google Cloud Storage Bucket
+15. Kinsta Static Site Hosting
+16. Microsoft Azure
+17. Netlify
+18. Render
+19. Static.app
+20. Stormkit.io
+21. Hostman
+22. Surge.sh
+23. tiiny.host
+24. Back4App
+25. Vercel
 ![ꦗꦮ꦳ꦱ꧀ꦕꦥ꧀ꦠ꧀](https://github.com/jscroot/jscroot.github.io/assets/11188109/3c0c88d0-9900-49c7-86d4-0c42bbc8f175)  
 [Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)  
 Rule of Thumb:  
