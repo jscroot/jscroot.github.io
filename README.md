@@ -27,7 +27,7 @@ Supported in many static web hosting:
 23. tiiny.host
 24. Back4App
 25. Vercel
-![ꦗꦮ꦳ꦱ꧀ꦕꦥ꧀ꦠ꧀](https://github.com/jscroot/jscroot.github.io/assets/11188109/3c0c88d0-9900-49c7-86d4-0c42bbc8f175)  
+
 [Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)  
 Rule of Thumb:  
 ```txt
