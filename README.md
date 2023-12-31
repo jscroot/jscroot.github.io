@@ -1,36 +1,6 @@
 # Root Static Website | Javascript Changer to transform Static Web into Dynamic Website  | A Pure VanillaJS ES6+ Base
 
-Root your static website, and change it into a dynamic one. Get the benefit of a low-emission carbon code.  
-Supported in many static web hosting:
-1. Github pages
-2. Gitlab pages
-3. AWS Amplify / Amazon S3
-4. KeyCDN
-5. Azure Static Web Apps
-6. 21YunBox
-7. Blogspot
-8. Zeit
-9. Forge
-10. Bip.sh
-11. DigitalOcean App Platform
-12. Statically
-13. Clodui
-14. Cloud 66
-15. Cloudflare Pages
-16. Deploy Now
-17. Firebase
-18. Google Cloud Storage Bucket
-19. Kinsta Static Site Hosting
-20. Microsoft Azure
-21. Netlify
-22. Render
-23. Static.app
-24. Stormkit.io
-25. Hostman
-26. Surge.sh
-27. tiiny.host
-28. Back4App
-29. Vercel
+Root your static website, and change it into a dynamic one. Get the benefit of a low-emission carbon code. Supported by many static web hosting.
 
 [Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)  
 Rule of Thumb:  
@@ -102,3 +72,36 @@ croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
 ```
 
 Just Look Into [examples](./examples/) section.
+
+## List of Static Web Hosting
+
+Run your rooted dynammic website in this static web hosting providing list:
+1. Github pages
+2. Gitlab pages
+3. AWS Amplify / Amazon S3
+4. KeyCDN
+5. Azure Static Web Apps
+6. 21YunBox
+7. Blogspot
+8. Zeit
+9. Forge
+10. Bip.sh
+11. DigitalOcean App Platform
+12. Statically
+13. Clodui
+14. Cloud 66
+15. Cloudflare Pages
+16. Deploy Now
+17. Firebase
+18. Google Cloud Storage Bucket
+19. Kinsta Static Site Hosting
+20. Microsoft Azure
+21. Netlify
+22. Render
+23. Static.app
+24. Stormkit.io
+25. Hostman
+26. Surge.sh
+27. tiiny.host
+28. Back4App
+29. Vercel
