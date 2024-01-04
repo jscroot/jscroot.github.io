@@ -3,7 +3,7 @@
 ![ꦗꦮ꦳ꦱ꧀ꦕꦥ꧀ꦠ꧀](https://github.com/jscroot/jscroot.github.io/assets/11188109/3c0c88d0-9900-49c7-86d4-0c42bbc8f175)  
 
 Root your static website, and change it into a dynamic one. Get the benefit of a low-emission carbon code. Supported by many static web hosting.
-
+Use our [skeleton](https://github.com/jscroot/skeleton) and look at [demo](https://jscroot.github.io/skeleton/).
 [Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)  
 Rule of Thumb:  
 ```txt
