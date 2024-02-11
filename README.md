@@ -1,13 +1,12 @@
-# Root Static Website | Javascript Changer to transform Static Web into Dynamic Website  | A Pure VanillaJS ES6+ Base
-
-![ꦗꦮ꦳ꦱ꧀ꦕꦥ꧀ꦠ꧀](https://github.com/jscroot/jscroot.github.io/assets/11188109/3c0c88d0-9900-49c7-86d4-0c42bbc8f175)  
+# JSCroot : A Pure ES6+ VanillaJS Static Web Transformator | Transform Static Web into Dynamic Website
 
 Root your static website, and change it into a dynamic one. Get the benefit of a low-emission carbon code. Supported by many static web hosting.
-Use our [skeleton](https://github.com/jscroot/skeleton) and look at [demo](https://jscroot.github.io/skeleton/).
-[Benchmark](https://krausest.github.io/js-framework-benchmark/current.html)  
-Rule of Thumb:  
+Dare to [Benchmark This](https://krausest.github.io/js-framework-benchmark/current.html)?  
+
+The JS Rule of Thumb:  
 ```txt
-Every line in JavaScript runs as a sub-process in a browser, not waiting.
+JavaScript is an asynchronous scripting language.  
+Every line in JavaScript runs as a sub-process in a browser, not waiting.  
 Use async await or promise if you want to run without a sub-process.
 ```
 This is a sample of a four-step run of the js command, where js can be run in serial and parallel mode:
@@ -30,9 +29,43 @@ window.addEventListener('load', (event) => {
     console.log('The page has fully loaded');
 });
 ```
-Just Look Into [examples](./examples/) section.
 
-## List of component
+## How to Use
+
+The first thing to do is create your html file and declare the type module js script.
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script type="module" src="index.js"></script>
+</body>
+</html>
+```
+This is your step:
+1. create your first index.js file
+2. go to **List of components** below
+3. Open cdn jsdelivr link
+4. Click on croot.js file
+5. Copy the URL from the browser
+6. Put in the import section statement
+7. Dont forget to call the function name in the import section or you might use the asterisk (*)
+
+```js
+import { setInner } from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
+setInner("demo","Dari croot.js");
+```
+or
+```js
+import * as croot from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
+croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
+```
+Choose the two paradigms in Javascript:
+1. Micro Front End(MFE) : Just Look Into [examples](./examples/) section.
+2. Conventional Single Page Applicetion(SPA) : Use our [skeleton](https://github.com/jscroot/skeleton) and look at [demo](https://jscroot.github.io/skeleton/).
+
+## List of components
 
 * [element](https://jscroot.github.io/element/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/element/)
 * [api](https://jscroot.github.io/api/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/api/)
@@ -46,34 +79,6 @@ Just Look Into [examples](./examples/) section.
 ## List of Template
 
 * [Swagger](https://jscroot.github.io/swagger/) | [Fork Github](https://github.com/jscroot/swagger)
-
-## How to Use
-
-croot.html :
-
-```html
-<!DOCTYPE html>
-<html>
-<body>
-<p id="demo"></p>
-<script type="module" src="./croot.js"></script>
-</body>
-</html>
-```
-
-croot.js :
-
-```js
-import { setInner } from "https://jscroot.github.io/element/croot.js";
-setInner("demo","Dari croot.js");
-```
-or
-```js
-import * as croot from "https://jscroot.github.io/element/croot.js";
-croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
-```
-
-Just Look Into [examples](./examples/) section.
 
 ## List of Static Web Hosting
 
