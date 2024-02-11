@@ -63,7 +63,7 @@ croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
 ```
 Choose the two paradigms in Javascript:
 1. Micro Front End(MFE) : Just Look Into [examples](./examples/) section.
-2. Conventional Single Page Applicetion(SPA) : Use our [skeleton](https://github.com/jscroot/skeleton) and look at [demo](https://jscroot.github.io/skeleton/).
+2. Conventional Single Page Application(SPA) : Use our [skeleton](https://github.com/jscroot/skeleton) and look at [demo](https://jscroot.github.io/skeleton/).
 
 ## List of components
 
