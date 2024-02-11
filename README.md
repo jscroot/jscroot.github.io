@@ -30,17 +30,17 @@ This is your step:
 4. Click on croot.js file
 5. Copy the URL from the browser
 6. Put in the import section statement
-7. Dont forget to call the function name in the import section or you might use the asterisk (*)
-
-```js
-import { setInner } from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
-setInner("demo","Dari croot.js");
-```
-or
-```js
-import * as croot from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
-croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
-```
+7. Dont forget to call the function name in the import section
+    ```js
+    import { setInner } from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
+    setInner("demo","Dari croot.js");
+    ```
+8. or you might use the asterisk (*)
+    ```js
+    import * as croot from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
+    croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
+    ```
+    
 Choose the two paradigms in Javascript:
 1. Micro Front End(MFE) : Just Look Into [examples](./examples/) section.
 2. Conventional Single Page Application(SPA) : Use our [skeleton](https://github.com/jscroot/skeleton) and look at [demo](https://jscroot.github.io/skeleton/).
