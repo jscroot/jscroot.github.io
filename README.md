@@ -30,7 +30,7 @@ This is your step:
 4. Click on croot.js file in jsdelivr page
 5. Copy the URL from the browser
 6. Put in the import section statement
-7. Dont forget to call the function name in the import section
+7. Don't forget to call the function name in the import section
     ```js
     import { setInner } from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
     setInner("demo","Dari croot.js");
