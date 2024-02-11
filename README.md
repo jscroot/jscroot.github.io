@@ -27,7 +27,7 @@ This is your step:
 1. create your first index.js file
 2. go to **List of components** below
 3. Open cdn jsdelivr link
-4. Click on croot.js file
+4. Click on croot.js file in jsdelivr page
 5. Copy the URL from the browser
 6. Put in the import section statement
 7. Dont forget to call the function name in the import section
