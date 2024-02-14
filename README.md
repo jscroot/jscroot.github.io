@@ -47,14 +47,14 @@ Choose the two paradigms in Javascript:
 
 ## List of components
 
-* [element](https://jscroot.github.io/element/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/element/)
-* [api](https://jscroot.github.io/api/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/api/)
-* [cookie](https://jscroot.github.io/cookie/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/cookie/)
-* [url](https://jscroot.github.io/url/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/url/)
-* [mongo](https://jscroot.github.io/mongo/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/mongo/)
-* [useragent](https://jscroot.github.io/useragent/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/useragent/)
-* [websocket](https://jscroot.github.io/websocket/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/websocket/)
-* [image](https://jscroot.github.io/image/croot.js) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/image/)
+* [element](https://jscroot.github.io/element/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/element/)
+* [api](https://jscroot.github.io/api/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/api/)
+* [cookie](https://jscroot.github.io/cookie/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/cookie/)
+* [url](https://jscroot.github.io/url/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/url/)
+* [mongo](https://jscroot.github.io/mongo/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/mongo/)
+* [useragent](https://jscroot.github.io/useragent/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/useragent/)
+* [websocket](https://jscroot.github.io/websocket/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/websocket/)
+* [image](https://jscroot.github.io/image/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/image/)
 
 ## List of Template
 
