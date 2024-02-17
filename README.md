@@ -55,6 +55,7 @@ Choose the two paradigms in Javascript:
 * [useragent](https://jscroot.github.io/useragent/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/useragent/)
 * [websocket](https://jscroot.github.io/websocket/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/websocket/)
 * [image](https://jscroot.github.io/image/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/image/)
+* [loading](https://jscroot.github.io/loading/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/loading/) 
 
 ## List of Template
 
