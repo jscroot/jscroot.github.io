@@ -60,6 +60,7 @@ Choose the two paradigms in Javascript:
 ## List of Template
 
 * [Swagger](https://jscroot.github.io/swagger/) | [Fork Github](https://github.com/jscroot/swagger)
+* [404 Not Found Template](https://jscroot.github.io/404/404.html) | [Fork Github](https://github.com/jscroot/404)
 
 ## List of Static Web Hosting
 
