@@ -17,6 +17,11 @@ The first thing to do is create your html file and declare the type module js sc
 ```html
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module Example</title>
+</head>
 <body>
 <p id="demo"></p>
 <script type="module" src="index.js"></script>
@@ -63,6 +68,15 @@ Choose the two paradigms in Javascript:
 * [PDF Web Viewer](https://jscroot.github.io/view/) | [Fork Github](https://github.com/jscroot/view)
 * [Swagger](https://jscroot.github.io/swagger/) | [Fork Github](https://github.com/jscroot/swagger)
 * [404 Not Found Template](https://jscroot.github.io/404/404.html) | [Fork Github](https://github.com/jscroot/404)
+
+## How to release a tag version in git
+
+Open your git bash, change directory into your repo folders then:  
+```sh
+git tag                                 	#check current version
+git tag v0.0.3                          	#set tag version
+git push origin --tags                  	#push tag version to repo
+```
 
 ## List of Static Web Hosting
 
