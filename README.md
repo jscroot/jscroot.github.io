@@ -49,7 +49,7 @@ This is your step:
     
 ## Exercise
 
-We use Micro Front End(MFE) paradigm: Come into [examples](./examples/) section to begin with JSCroot.
+We use Micro Front End(MFE) paradigm: Come into [examples](./examples/) section to begin your journey with JSCroot.
 
 ## List of components
 
