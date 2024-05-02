@@ -6,7 +6,7 @@ Dare to [Benchmark This](https://krausest.github.io/js-framework-benchmark/curre
 The JS Rule of Thumb:  
 ```txt
 JavaScript is an asynchronous scripting language.  
-Every line in JavaScript runs as a sub-process in a browser, not waiting.  
+Every line in JavaScript runs as an independent process in a browser, not waiting.  
 Use async await or promise if you want to run without a sub-process.
 ```
 
