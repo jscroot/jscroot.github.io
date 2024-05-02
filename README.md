@@ -69,15 +69,6 @@ Choose the two paradigms in Javascript:
 * [Swagger](https://jscroot.github.io/swagger/) | [Fork Github](https://github.com/jscroot/swagger)
 * [404 Not Found Template](https://jscroot.github.io/404/404.html) | [Fork Github](https://github.com/jscroot/404)
 
-## How to release a tag version in git
-
-Open your git bash, change directory into your repo folders then:  
-```sh
-git tag                                 	#check current version
-git tag v0.0.3                          	#set tag version
-git push origin --tags                  	#push tag version to repo
-```
-
 ## List of Static Web Hosting
 
 Run your rooted dynammic website in this static web hosting providing list:
