@@ -49,7 +49,7 @@ This is your step:
     
 ## Example
 
-Micro Front End(MFE) : Just Look Into [examples](./examples/) section.
+As default we use A Micro Front End(MFE) paradigm: Just Look Into [examples](./examples/) section.
 
 ## List of components
 
