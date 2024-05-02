@@ -76,8 +76,8 @@ Conventional Single Page Application(SPA) : Use our [skeleton](https://github.co
 
 ## List of Static Web Hosting
 
-Run your rooted dynammic website in this static web hosting providing list:
-1. Github pages
+Run your rooted dynamic website in this static web hosting providing list:
+1. Github pages**(recommended)**.
 2. Gitlab pages
 3. AWS Amplify / Amazon S3
 4. KeyCDN
