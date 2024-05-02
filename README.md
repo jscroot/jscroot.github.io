@@ -12,7 +12,7 @@ Use async await or promise if you want to run without a sub-process.
 
 ## How to Use
 
-The first thing to do is create your html file and declare the type module js script.
+The first thing to do is create your html file and declare the *type module* js script.
 
 ```html
 <!DOCTYPE html>
