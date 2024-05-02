@@ -45,10 +45,11 @@ This is your step:
     import * as croot from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
     croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
     ```
+
     
-Choose the two paradigms in Javascript:
-1. Micro Front End(MFE) : Just Look Into [examples](./examples/) section.
-2. Conventional Single Page Application(SPA) : Use our [skeleton](https://github.com/jscroot/skeleton) and look at [demo](https://jscroot.github.io/skeleton/).
+## Example
+
+Micro Front End(MFE) : Just Look Into [examples](./examples/) section.
 
 ## List of components
 
@@ -68,6 +69,10 @@ Choose the two paradigms in Javascript:
 * [PDF Web Viewer](https://jscroot.github.io/view/) | [Fork Github](https://github.com/jscroot/view)
 * [Swagger](https://jscroot.github.io/swagger/) | [Fork Github](https://github.com/jscroot/swagger)
 * [404 Not Found Template](https://jscroot.github.io/404/404.html) | [Fork Github](https://github.com/jscroot/404)
+
+## Single Page Application(SPA)
+
+Conventional Single Page Application(SPA) : Use our [skeleton](https://github.com/jscroot/skeleton) and look at [demo](https://jscroot.github.io/skeleton/).
 
 ## List of Static Web Hosting
 
