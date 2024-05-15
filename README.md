@@ -1,6 +1,6 @@
 # JSCroot : A Pure ES6+ VanillaJS Static Web Transformator | Transform Static Web into Dynamic Website
 
-Root your static website, and change it into a dynamic one. Get the benefit of a low-emission carbon code. Supported by many static web hosting.
+Root your static website and transform it into a dynamic one. Benefit from a low-emission carbon code. Many static web hosting providers support this.
 Dare to [Benchmark This](https://krausest.github.io/js-framework-benchmark/current.html)?  
 
 The JS Rule of Thumb:  
@@ -9,6 +9,10 @@ JavaScript is an asynchronous scripting language.
 Every line in JavaScript runs as an independent process in a browser, not waiting.  
 Use async await or promise if you want to run without a sub-process.
 ```
+Beginner? don't you worry, follow this tutorial and exercise first:
+1. [Pengenalan API dan Tools](https://universitas.bukupedia.co.id/ws/Chapter01/)
+2. [HTTP Header and Body Capture](https://universitas.bukupedia.co.id/ws/Chapter02/)
+3. [Dasar Cookie, Frontend dan Backend Package](https://universitas.bukupedia.co.id/ws/Chapter03/)
 
 ## How to Use
 
