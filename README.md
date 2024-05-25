@@ -58,6 +58,7 @@ We use Micro Front End(MFE) paradigm: Come into [examples](./examples/) section 
 ## List of components
 
 * [element](https://jscroot.github.io/element/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/element/)
+* [Input Validation](https://jscroot.github.io/validate/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/validate/)
 * [api](https://jscroot.github.io/api/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/api/)
 * [cookie](https://jscroot.github.io/cookie/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/cookie/)
 * [url](https://jscroot.github.io/url/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/url/)
