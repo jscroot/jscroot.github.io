@@ -51,8 +51,58 @@ This is your step:
     ```
 
     
-## Exercise
+## Quick Start
+index.html file:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+<body>
 
+
+<table class="table">
+  <tbody id="lokasi">
+    <tr>
+      <th>Type</th>
+      <th>Nama</th>
+      <th>Kordinat</th>
+    </tr>
+  </tbody>
+</table>
+
+<script type="module" src="./main.js"></script>
+
+</body>
+</html>
+```
+main.js file:
+```js
+import { get } from "https://cdn.jsdelivr.net/gh/jscroot/api@0.0.8/croot.js";
+import {setInner,addChild } from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.7/croot.js";
+
+export let URLGeoJson = "https://jscroot.github.io/examples/api/get/fromfile/data.json";
+export let tableTag="tr";
+export let tableRowClass="content is-small";
+export let tableTemplate=`
+<td>#TYPE#</td>
+<td>#NAME#</td>
+<td>#KORDINAT#</td>
+`
+get(URLGeoJson,responseData);
+
+export function responseData(results){
+    console.log(results.features);
+    results.features.forEach(isiRow);
+}
+
+export function isiRow(value){
+    let content=tableTemplate.replace("#TYPE#",value.geometry.type).replace("#NAME#",value.properties.name).replace("#KORDINAT#",value.geometry.coordinates);
+    console.log(content);
+    addChild("lokasi",tableTag,tableRowClass,content);
+}
+```
 We use Micro Front End(MFE) paradigm: Come into [examples](./examples/) section to begin your journey with JSCroot.
 
 ## List of components
