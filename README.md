@@ -1,4 +1,4 @@
-# JSCroot : A Pure ES6+ VanillaJS Static Web Transformator | Transform Static Web into Dynamic Website
+# JSCroot : A Pure Vanilla JavaScript ES6+ Modules Static Web Transformator | Transform Static Web into Dynamic Website
 
 Root your static website and transform it into a dynamic one. Benefit from a low-emission carbon code. Many static web hosting providers support this.
 Dare to [Benchmark This](https://krausest.github.io/js-framework-benchmark/current.html)?  
