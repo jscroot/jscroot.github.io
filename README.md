@@ -10,9 +10,11 @@ Every line in JavaScript runs as an independent process in a browser, not waitin
 Use async await or promise if you want to run without a sub-process.
 ```
 
+[Download or Use JSCRoot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib)
+
 ## Quick Start with ChatGPT
 
-Using JSCroot assisted by chatGPT:
+Using JSCroot assisted by ChatGPT:
 1. Download lib from [release page](https://github.com/jscroot/lib/releases)
 2. Extract, choose js file and upload it into ChatGPT Prompt, for example : api.js
 3. Input this text:
