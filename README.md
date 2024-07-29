@@ -62,12 +62,12 @@ This is your step:
 6. Put in the import section statement
 7. Don't forget to call the function name in the import section
     ```js
-    import { setInner } from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
+    import { setInner } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js";
     setInner("demo","Dari croot.js");
     ```
 8. or you might use the asterisk (*)
     ```js
-    import * as croot from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
+    import * as croot from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js";
     croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
     ```
 
@@ -100,8 +100,8 @@ index.html file:
 ```
 main.js file:
 ```js
-import { get } from "https://cdn.jsdelivr.net/gh/jscroot/api@0.0.8/croot.js";
-import {setInner,addChild } from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.7/croot.js";
+import { get } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/api.js";
+import {setInner,addChild } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js";
 
 export let URLGeoJson = "https://jscroot.github.io/examples/api/get/fromfile/data.json";
 export let tableTag="tr";
@@ -128,18 +128,17 @@ export function isiRow(value){
 ```
 We use Micro Front End(MFE) paradigm: Come into [examples](./examples/) section to begin your journey with JSCroot.
 
-## List of components
+## List of library components
 
-* [element](https://jscroot.github.io/element/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/element/)
-* [Input Validation](https://jscroot.github.io/validate/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/validate/)
-* [api](https://jscroot.github.io/api/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/api/)
-* [cookie](https://jscroot.github.io/cookie/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/cookie/)
-* [url](https://jscroot.github.io/url/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/url/)
-* [mongo](https://jscroot.github.io/mongo/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/mongo/)
-* [useragent](https://jscroot.github.io/useragent/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/useragent/)
-* [websocket](https://jscroot.github.io/websocket/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/websocket/)
-* [image](https://jscroot.github.io/image/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/image/)
-* [loading](https://jscroot.github.io/loading/) | [cdn jsdelivr](https://cdn.jsdelivr.net/gh/jscroot/loading/) 
+* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/api.js
+* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/cookie.js
+* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js
+* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/image.js
+* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/loading.js
+* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/mongo.js
+* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/url.js
+* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/useragent.js
+* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/websocket.js
 
 ## List of Template
 
