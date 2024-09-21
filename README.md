@@ -14,7 +14,7 @@ Use async await or promise if you want to run without a sub-process.
 
 ## Sweetalert
 
-Using sweet alert using JSCroot is easy:
+Meet sweet alert with JSCroot:
 ```js
 import Swal from "https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js";
 import {addCSS} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.9/element.js";
