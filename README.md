@@ -12,6 +12,21 @@ Use async await or promise if you want to run without a sub-process.
 
 [Download or Use JSCRoot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib)
 
+## Sweetalert
+
+Using sweet alert using JSCroot is easy:
+```js
+import Swal from "https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js";
+import {addCSS} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.9/element.js";
+
+addCSS("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.css");
+Swal.fire({
+      icon: "error",
+      title: "Testing",
+      text: "Hi, from JSCroot",
+    });
+```
+
 ## Quick Start with ChatGPT
 
 Using JSCroot assisted by ChatGPT:
