@@ -10,7 +10,10 @@ Every line in JavaScript runs as an independent process in a browser, not waitin
 Use async await or promise if you want to run without a sub-process.
 ```
 
-[Download or Use JSCRoot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib)
+JSCroot uses ES6+ Syntax module. [Download or Use JSCRoot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib)
+```html
+<script type="module" src="index.js"></script>
+```
 
 ## Sweetalert
 
@@ -20,6 +23,7 @@ import Swal from "https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js
 import {addCSS} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.9/element.js";
 
 addCSS("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.css");
+
 Swal.fire({
       icon: "error",
       title: "Testing",
