@@ -26,7 +26,7 @@ await addCSSInHead("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2
 
 
 Swal.fire({
-      icon: "error",
+      icon: "error",  //success,warning,info,question
       title: "Testing",
       text: "Hi, from JSCroot",
     });
