@@ -10,10 +10,11 @@ Every line in JavaScript runs as an independent process in a browser, not waitin
 Use async await or promise if you want to run without a sub-process.
 ```
 
-JSCroot uses ES6+ Syntax module. [Download or Use JSCRoot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib)
+JSCroot uses ES6+ Syntax module:  
 ```html
 <script type="module" src="index.js"></script>
 ```
+[Download or Use JSCRoot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib)
 
 ## Sweetalert
 
@@ -24,12 +25,28 @@ import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js
 
 await addCSSInHead("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.css");
 
-
+//alert() replacement
 Swal.fire({
       icon: "error",  //success,warning,info,question
       title: "Testing",
       text: "Hi, from JSCroot",
     });
+
+//confirm() replacement
+Swal.fire({
+  title: 'Apakah Anda yakin?',
+  text: 'Anda akan melanjutkan tindakan ini.',
+  icon: 'warning',
+  showCancelButton: true,  // Menampilkan tombol Cancel
+  confirmButtonText: 'OK',
+  cancelButtonText: 'Cancel'
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire('Melanjutkan...', 'Tindakan Anda telah dikonfirmasi.', 'success');
+  } else {
+    Swal.fire('Dibatalkan', 'Tindakan Anda dibatalkan.', 'info');
+  }
+});
 ```
 
 ## Quick Start with ChatGPT
