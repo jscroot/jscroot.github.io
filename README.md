@@ -16,7 +16,7 @@ JSCroot uses ES6+ Syntax module:
 ```
 [Download or Use JSCRoot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib)
 
-## WhatsAuth and GoCroot Integragion
+## WhatsAuth and GoCroot Integration
 
 For example to get user data using WhatsAuth Token
 ```js
