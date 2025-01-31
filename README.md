@@ -1,20 +1,28 @@
-# JSCroot : A Pure Vanilla JavaScript ES6+ Modules Static Web Transformator | Transform Static Web into Dynamic Website
+# JSCroot: A Pure Vanilla JavaScript ES6+ Modules Static Web Transformer | Transform Static Websites into Dynamic Experiences
 
-Root your static website and transform it into a dynamic one. Benefit from a low-emission carbon code. Many static web hosting providers support this.
-Dare to [Benchmark This](https://krausest.github.io/js-framework-benchmark/current.html)?  
+Root your static website and effortlessly transform it into a dynamic website using JSCroot. Enjoy the benefits of a low-emission carbon code, making your website both efficient and eco-friendly. Many static web hosting providers seamlessly support JSCroot, offering a simple way to turn your static content into dynamic, interactive experiences.
 
-The JS Rule of Thumb:  
+With JSCroot, you can also take advantage of **anti-deface** protection, ensuring that your website remains secure against unauthorized changes. This makes your site less vulnerable to malicious alterations, adding an extra layer of security to your dynamic website.
+
+JSCroot offers **very low-cost deployment**, which can even be done for **free** with many hosting providers, making it an ideal choice for anyone looking to deploy their website with minimal expenses. 
+
+Ready to test its performance? Dare to [Benchmark This](https://krausest.github.io/js-framework-benchmark/current.html)?
+
+### The JS Rule of Thumb:
 ```txt
 JavaScript is an asynchronous scripting language.  
 Every line in JavaScript runs as an independent process in a browser, not waiting.  
 Use async await or promise if you want to run without a sub-process.
 ```
 
-JSCroot uses ES6+ Syntax module:  
+JSCroot leverages **ES6+ syntax** for modules:
 ```html
 <script type="module" src="index.js"></script>
 ```
-[Download or Use JSCRoot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib)
+
+You can easily [Use JSCroot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib) to get started with minimal setup.
+
+[Read Documentation](./lib)
 
 ## WhatsAuth and GoCroot Integration
 
