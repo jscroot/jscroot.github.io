@@ -6,6 +6,8 @@ With JSCroot, you can also take advantage of **anti-deface** protection, ensurin
 
 JSCroot offers **very low-cost deployment**, which can even be done for **free** with many hosting providers, making it an ideal choice for anyone looking to deploy their website with minimal expenses. 
 
+👉 This method is perfect for those who want a super lightweight application without any npm dependencies. 🚀
+
 Ready to test its performance? Dare to [Benchmark This](https://krausest.github.io/js-framework-benchmark/current.html)?
 
 ### The JS Rule of Thumb:
