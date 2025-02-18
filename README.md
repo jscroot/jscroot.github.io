@@ -89,7 +89,7 @@ Swal.fire({
 ## Quick Start with ChatGPT
 
 Using JSCroot assisted by ChatGPT:
-1. Download lib from [release page](https://github.com/jscroot/lib/releases)
+1. Download lib from [CDN](https://cdn.jsdelivr.net/gh/jscroot/lib/)
 2. Extract, choose js file and upload it into ChatGPT Prompt, for example : api.js
 3. Input this text:
    ```txt
