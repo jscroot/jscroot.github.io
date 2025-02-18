@@ -22,8 +22,8 @@ JSCroot leverages **ES6+ syntax** for modules:
 <script type="module" src="index.js"></script>
 ```
 
-You can easily [Use JSCroot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib) to get started with minimal setup.
-
+You can easily [Use JSCroot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib) to get started with minimal setup.  
+[![](https://data.jsdelivr.com/v1/package/gh/jscroot/lib/badge?style=rounded)](https://www.jsdelivr.com/package/gh/jscroot/lib)  
 [Read Documentation](./lib)
 
 ## WhatsAuth and GoCroot Integration
@@ -129,9 +129,8 @@ The first thing to do is create your html file and declare the **type module** j
 ```
 This is your step:
 1. create your first index.js file
-2. go to **List of components** below
-3. Open cdn jsdelivr link
-4. Click on croot.js file in jsdelivr page
+2. Open cdn jsdelivr link
+4. Click on files tab in jsdelivr page
 5. Copy the URL from the browser
 6. Put in the import section statement
 7. Don't forget to call the function name in the import section
@@ -144,9 +143,11 @@ This is your step:
     import * as croot from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js";
     croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
     ```
-
     
 ## Quick Start
+
+[Read Documentation](./lib)
+
 index.html file:
 ```html
 <!DOCTYPE html>
@@ -201,18 +202,6 @@ export function isiRow(value){
 }
 ```
 We use Micro Front End(MFE) paradigm: Come into [examples](./examples/) section to begin your journey with JSCroot.
-
-## List of library components
-
-* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/api.js
-* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/cookie.js
-* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js
-* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/image.js
-* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/loading.js
-* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/mongo.js
-* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/url.js
-* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/useragent.js
-* https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/websocket.js
 
 ## List of Template
 
