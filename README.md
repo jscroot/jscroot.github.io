@@ -57,17 +57,13 @@ function responseFunction(result){
 
 Meet sweet alert with JSCroot:
 ```js
-import {addCSSInHead} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.6/element.js";
+import {addCSS} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.3/element.js";
 import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js';
 
-await addCSSInHead("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.css");
+await addCSS("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.css");
 
 //alert() replacement
-Swal.fire({
-      icon: "error",  //success,warning,info,question
-      title: "Testing",
-      text: "Hi, from JSCroot",
-    });
+Swal.fire('Hehe', 'Kalem bray can hudang keneh', 'info');//success,warning,info,question
 
 //confirm() replacement
 Swal.fire({
