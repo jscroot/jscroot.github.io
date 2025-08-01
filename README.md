@@ -86,10 +86,10 @@ index.html file
 main.js file:
 
 ```js
-import {setCookieWithExpireHour} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/cookie.min.js";
+import {setCookieWithExpireHour,getCookie} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/cookie.min.js";
 import {onClick,getValue,addCSS} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/element.min.js";
 import {postJSON,getJSON} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/api.min.js";
-//import {redirect} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/url.min.js";
+import {redirect} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/url.min.js";
 
 //start import Sweet Alert
 import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js';
@@ -112,12 +112,22 @@ function PostSignIn(){
 
 function responseFunction(result){
     console.log(result);
-    setCookieWithExpireHour("token",result.data.token,2);
-    getJSON(urlBackend+"/login", runafterGetUsername, "Token", result.data.token);
+    if (result.status === 200) {
+        setCookieWithExpireHour("token",result.data.token,2);
+        let tokenValue=getCookie("token");
+        getJSON(urlBackend+"/login", runafterGetUsername, "Token",tokenValue);
+    } else {
+        Swal.fire(result.data.status, result.data.message, 'warning');//success,warning,info,question
+    }
 }
 
-function runafterGetUsername(result){
-    Swal.fire(result.data.status, result.data.message + " : "+result.data.username, 'info');//success,warning,info,question
+async function runafterGetUsername(result){
+    console.log(result);
+    const swalResult = await Swal.fire(result.data.status, result.data.message + " : "+result.data.username, 'success');//success,warning,info,question
+    if (swalResult.isConfirmed) {
+        // Aksi setelah user menekan OK
+        redirect("./dashboard");
+    }
 }
 ```
 
