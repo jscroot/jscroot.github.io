@@ -19,67 +19,106 @@ Use async await or promise if you want to run without a sub-process.
 
 JSCroot leverages **ES6+ syntax** for modules:
 ```html
-<script type="module" src="index.js"></script>
+<script type="module" src="main.js"></script>
 ```
 
 You can easily [Use JSCroot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib) to get started with minimal setup.  
 [![](https://data.jsdelivr.com/v1/package/gh/jscroot/lib/badge?style=rounded)](https://www.jsdelivr.com/package/gh/jscroot/lib)  
 [Read Documentation](./lib)
 
-## WhatsAuth and GoCroot Integration
+## How to Use
 
-For example to get user data using WhatsAuth Token
-```js
-import {getCookie} from "https://cdn.jsdelivr.net/gh/jscroot/cookie@0.0.1/croot.js";
-import {setInner} from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.5/croot.js";
-import {getJSON} from "https://cdn.jsdelivr.net/gh/jscroot/api@0.0.7/croot.js";
-import {redirect} from "https://cdn.jsdelivr.net/gh/jscroot/url@0.0.9/croot.js";
+The first thing to do is create your html file and declare the **type module** js script. This is your step:
+1. create your first main.js file
+2. Open cdn jsdelivr link. [Use JSCroot Library from CDN](https://www.jsdelivr.com/package/gh/jscroot/lib)
+4. Click on files tab in jsdelivr page
+5. Copy the URL from the browser
+6. Put in the import section statement
+7. Don't forget to call the function name in the import section
+    ```js
+    import { setInner } from "[https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js](https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/element.js)";
+    setInner("demo","Dari croot.js");
+    ```
+8. or you might use the asterisk (*)
+    ```js
+    import * as croot from "[https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js](https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/element.js)";
+    croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
+    ```
+    
+## Quick Start
 
-if (getCookie("login")===""){
-    redirect("/");
-}
+[Read Documentation](./lib)
 
-getJSON("https://api.do.my.id/data/user","login",getCookie("login"),responseFunction)
+index.html file
 
-function responseFunction(result){
-    if (result.status === 404){
-        setInner("content","Silahkan lakukan pendaftaran terlebih dahulu "+result.data.name);
-        redirect("/signup");
-    }else{
-        setInner("content","Selamat datang "+result.data.name);
-        redirect("/dashboard");
-    }
-    console.log(result);
-}
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="index.js"></script>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+        </div>
+        <div class="form-group">
+            <button id="submit">Login</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
 ```
 
-## Sweetalert
+main.js file:
 
-Meet sweet alert with JSCroot:
 ```js
-import {addCSS} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.3/element.js";
+import {setCookieWithExpireHour} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/cookie.min.js";
+import {onClick,getValue,addCSS} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/element.min.js";
+import {postJSON,getJSON} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/api.min.js";
+//import {redirect} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/url.min.js";
+
+//start import Sweet Alert
 import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11/src/sweetalert2.js';
-
 await addCSS("https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.css");
+//end sweet alert import
 
-//alert() replacement
-Swal.fire('Hehe', 'Kalem bray can hudang keneh', 'info');//success,warning,info,question
+//config param
+const urlBackend = "https://n-pts-yang-contamination.trycloudflare.com";
 
-//confirm() replacement
-Swal.fire({
-  title: 'Apakah Anda yakin?',
-  text: 'Anda akan melanjutkan tindakan ini.',
-  icon: 'warning',
-  showCancelButton: true,  // Menampilkan tombol Cancel
-  confirmButtonText: 'OK',
-  cancelButtonText: 'Cancel'
-}).then((result) => {
-  if (result.isConfirmed) {
-    Swal.fire('Melanjutkan...', 'Tindakan Anda telah dikonfirmasi.', 'success');
-  } else {
-    Swal.fire('Dibatalkan', 'Tindakan Anda dibatalkan.', 'info');
-  }
-});
+
+onClick("submit",PostSignIn);
+
+function PostSignIn(){
+    let datainjson = {
+        "username": getValue("username"),
+        "password": getValue("password")
+    }
+    postJSON(urlBackend+"/login",datainjson,responseFunction);
+}
+
+function responseFunction(result){
+    console.log(result);
+    setCookieWithExpireHour("token",result.data.token,2);
+    getJSON(urlBackend+"/login", runafterGetUsername, "Token", result.data.token);
+}
+
+function runafterGetUsername(result){
+    Swal.fire(result.data.status, result.data.message + " : "+result.data.username, 'info');//success,warning,info,question
+}
 ```
 
 ## Quick Start with ChatGPT
@@ -90,12 +129,12 @@ Using JSCroot assisted by ChatGPT:
 3. Input this text:
    ```txt
    I want to use JSCroot as ES modules to build my website, this is my library file from:
-   https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.1/api.js
+   https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/api.js
    ```
 4. Other option: if you cant upload file, just paste the code inside api.js after cdn url with several new line
    ```txt
    I want to use JSCroot as ES modules to build my website, this is my library file from:
-   https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.1/api.js
+   https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/api.js
 
    ...content inside api.js file...
    ```
@@ -105,101 +144,10 @@ Need a basic concept? don't worry, follow this tutorial and exercise first:
 2. [HTTP Header and Body Capture](https://universitas.bukupedia.co.id/ws/Chapter02/)
 3. [Dasar Cookie, Frontend dan Backend Package](https://universitas.bukupedia.co.id/ws/Chapter03/)
 
-## How to Use
-
-The first thing to do is create your html file and declare the **type module** js script.
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Module Example</title>
-</head>
-<body>
-<p id="demo"></p>
-<script type="module" src="index.js"></script>
-</body>
-</html>
-```
-This is your step:
-1. create your first index.js file
-2. Open cdn jsdelivr link
-4. Click on files tab in jsdelivr page
-5. Copy the URL from the browser
-6. Put in the import section statement
-7. Don't forget to call the function name in the import section
-    ```js
-    import { setInner } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js";
-    setInner("demo","Dari croot.js");
-    ```
-8. or you might use the asterisk (*)
-    ```js
-    import * as croot from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js";
-    croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
-    ```
-    
-## Quick Start
-
-[Read Documentation](./lib)
-
-index.html file:
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  </head>
-<body>
-
-
-<table class="table">
-  <tbody id="lokasi">
-    <tr>
-      <th>Type</th>
-      <th>Nama</th>
-      <th>Kordinat</th>
-    </tr>
-  </tbody>
-</table>
-
-<script type="module" src="./main.js"></script>
-
-</body>
-</html>
-```
-main.js file:
-```js
-import { get } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/api.js";
-import {setInner,addChild } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js";
-
-export let URLGeoJson = "https://jscroot.github.io/examples/api/get/fromfile/data.json";
-export let tableTag="tr";
-export let tableRowClass="content is-small";
-export let tableTemplate=`
-<td>#TYPE#</td>
-<td>#NAME#</td>
-<td>#KORDINAT#</td>
-`
-get(URLGeoJson,responseData);
-
-export function responseData(results){
-    console.log(results.features);
-    results.features.forEach(isiRow);
-}
-
-export function isiRow(value){
-    let content=tableTemplate.replace("#TYPE#",value.geometry.type)
-        .replace("#NAME#",value.properties.name)
-        .replace("#KORDINAT#",value.geometry.coordinates);
-    console.log(content);
-    addChild("lokasi",tableTag,tableRowClass,content);
-}
-```
-We use Micro Front End(MFE) paradigm: Come into [examples](./examples/) section to begin your journey with JSCroot.
 
 ## List of Template
+
+We can use Micro Front End(MFE) paradigm: Come into [examples](./examples/) section to begin your journey with JSCroot.
 
 * [File Explorer](https://jscroot.github.io/explorer/) | [Fork Github](https://github.com/jscroot/explorer)
 * [PDF Web Viewer](https://jscroot.github.io/view/) | [Fork Github](https://github.com/jscroot/view)
