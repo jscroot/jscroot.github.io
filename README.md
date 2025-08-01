@@ -36,12 +36,12 @@ The first thing to do is create your html file and declare the **type module** j
 6. Put in the import section statement
 7. Don't forget to call the function name in the import section
     ```js
-    import { setInner } from "[https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js](https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/element.js)";
+    import { setInner } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js";
     setInner("demo","Dari croot.js");
     ```
 8. or you might use the asterisk (*)
     ```js
-    import * as croot from "[https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js](https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.8/element.js)";
+    import * as croot from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.0.3/element.js";
     croot.setInner("demo","Dari croot.js import fungsi dengan nama croot");
     ```
     
