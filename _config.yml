@@ -1,0 +1,6 @@
+# JSCroot sekarang CrootJS. Halaman situs lama dialihkan ke croot.js.org dengan
+# jekyll-redirect-from (didukung GitHub Pages): setiap halaman berisi tautan canonical ke alamat
+# baru, meta refresh, dan tautan yang bisa diklik.
+title: JSCroot (sekarang CrootJS)
+plugins:
+  - jekyll-redirect-from
